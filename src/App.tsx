@@ -1,11 +1,19 @@
 import * as React from "react";
+import { ImageLoader } from "./image-loader/ImageLoader";
+import { Login } from "./login/Login";
+import { AuthAsSerivce } from "./auth-as-service/AuthAsService";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="left">
+        <Login />
+        <AuthAsSerivce />
+      </div>
+      <div className="right">
+        <ImageLoader />
+      </div>
     </div>
   );
 }
