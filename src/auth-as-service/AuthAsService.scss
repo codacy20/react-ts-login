@@ -1,0 +1,59 @@
+.auth-container{
+  display: flex;
+  align-items:center;
+  flex-direction: column; 
+  .divide{
+    border: 1px solid #CAD6E4;
+    width: 430px;
+  }
+  .options{
+    margin-top: 35px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+  }
+  .social-contianer{
+    display: flex;
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 90px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    justify-content: space-between;
+    .social{
+      width: 207px;
+      height: 55px;
+      background: #FFFFFF;
+      border: 1px solid #CAD6E4;
+      box-sizing: border-box;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      i{
+        height: 35px;
+        width: 35px;
+        font-size: 35px;
+      }
+      span{
+        margin-left: 10px;
+        color: black;
+      }
+      &.facebook{
+        color: #3b5998;
+      }
+    }
+  }
+  .signup{
+    margin-top: 60px;
+    .underline{
+      margin-left: 5px;
+      text-decoration-line: underline;
+      color: #046586;
+    }
+  }
+}
