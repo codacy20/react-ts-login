@@ -1,19 +1,11 @@
 import * as React from "react";
-import { ImageLoader } from "./image-loader/ImageLoader";
-import { Login } from "./login/Login";
-import { AuthAsSerivce } from "./auth-as-service/AuthAsService";
+import { Card } from "./card/Card";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="left">
-        <Login />
-        <AuthAsSerivce />
-      </div>
-      <div className="right">
-        <ImageLoader />
-      </div>
+      <Card />
     </div>
   );
 }

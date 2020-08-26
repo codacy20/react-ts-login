@@ -1,0 +1,27 @@
+.container-card{
+  width: 1057px;
+  height: 708px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  transform-style: preserve-3d;
+  position: relative;
+  display: flex;
+  .left{
+    height: 100%;
+    flex: 1.5 0;
+  }
+  .right{
+    height: 100%;
+    flex: 1 0;
+  }
+}
+
+.container-card::before{
+  filter: blur(27px);
+  background: #F0D3D3;
+  position: absolute;
+  content: '';
+  width: 1057px;
+  height: 708px;
+  transform: translateZ(-1px);
+}
