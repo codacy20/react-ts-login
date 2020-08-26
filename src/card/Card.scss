@@ -25,3 +25,16 @@
   height: 708px;
   transform: translateZ(-1px);
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) { 
+  .container-card{
+    height: 100vh;
+    width: 100vw;
+    .right{
+      display: none;
+    }
+  }
+  .container-card::before{
+    display: none;
+  }
+}
