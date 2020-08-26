@@ -7,6 +7,7 @@
     color: #161843;
     font-family: rokkitt, serif;
     font-weight: bold;
+    margin: 0;
   }
   input{
     height: 73px;
@@ -18,6 +19,9 @@
     border: 1px solid #CAD6E4;
     box-sizing: border-box;
     border-radius: 5px;
+  }
+  .para{
+    margin-bottom: 52px;
   }
   .actions{
     display: flex;

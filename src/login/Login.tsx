@@ -6,7 +6,7 @@ export class Login extends Component<{}, {}> {
     return (
       <div className="login-container">
         <h3>Log In</h3>
-        <p>
+        <p className="para">
           Log in to your account to upload or download pictures, videos or
           music.
         </p>
